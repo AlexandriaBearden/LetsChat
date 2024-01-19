@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Let's Chat!</title>
+</head>
+<body>
+    <button class="chatbot-toggler">
+        <span class="material-icons">mode_comment</span>
+        <span class="close-btn material-icons">close</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Let's Chat!</h2>
+            <span class="material-icons">close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-icons">mood</span>
+                <p>Hi, there! &#x1F44B; <br> How can I help you today? </p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea name="user-input" placeholder="Enter a message!" required></textarea>
+            <span id="send-btn" class="material-icons">send</span>
+        </div>
+    </div>
+
+
+</body>
+</html>
